@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sonic_social
+    username: root
+    password: 1999csysh
+
+    redis:
+      host: localhost
+      port: 6379
+      database: 5
+
+system:
+  minio:
+  url: http://localhost:9000
+  bucket: edumind
+  access-key: quxW2iqRvcwdN8PfkYZc
+  secret-key: IyA7eA2a7iBBLwGbFoWHjY9EZdvqiYvFxI7Hnt0m
